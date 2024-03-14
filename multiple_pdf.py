@@ -79,7 +79,7 @@ def main():
     st.set_page_config("Ask A Question", "👁️", "wide", "auto")
     st.header("Ask A Question")
 
-    user_question = st.text_input("Ask a Question from the videos")
+    user_question = st.text_input("Ask a Question")
 
     if user_question:
         user_input(user_question)
